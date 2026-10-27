@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Ultracode for DSH: the agent decides per task whether to run a dynamic workflow of parallel subagents.",
+  "license": "MIT",
   "exports": {
     ".": "./index.js",
     "./locale/*.json": "./locale/*.json",
@@ -15,7 +16,8 @@
     "cordis.patch.yml",
     "locale/*.json",
     "icon.svg",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "dsh": {
     "bundle": {

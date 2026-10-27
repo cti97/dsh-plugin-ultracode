@@ -185,4 +185,17 @@ cordis.patch.yml      Bundle patch: the ultracode row
 locale/{en,zh}.json   Plugin Manager title and description
 icon.svg              Original artwork for the plugin row
 test/                 node:test suites
+LICENSE               MIT
 ```
+
+## 10. License
+
+MIT — see [LICENSE](LICENSE). Use it, fork it, ship it; keep the copyright
+notice.
+
+The code is original. The feature it mirrors, ultracode, is Anthropic's, and
+this plugin copies no Anthropic code: it reads the public documentation, and the
+execution half it drives is DSH's own `workflow` tool. "Claude", "Claude Code",
+and "Anthropic" are trademarks of Anthropic PBC; this project is not affiliated
+with or endorsed by them.
+
