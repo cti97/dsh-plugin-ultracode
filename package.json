@@ -1,0 +1,28 @@
+{
+  "name": "@local/dsh-plugin-ultracode",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Ultracode for DSH: the agent decides per task whether to run a dynamic workflow of parallel subagents.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

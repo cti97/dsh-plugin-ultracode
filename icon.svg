@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Ultracode">
+  <rect width="64" height="64" rx="14" fill="#141418"/>
+  <g stroke="#f5a524" stroke-width="2.4" stroke-linecap="round" opacity="0.7">
+    <path d="M17 32 L45 12"/>
+    <path d="M17 32 L45 25"/>
+    <path d="M17 32 L45 39"/>
+    <path d="M17 32 L45 52"/>
+  </g>
+  <g fill="#f5a524">
+    <circle cx="16" cy="32" r="5.5"/>
+  </g>
+  <g fill="#f3f3f7">
+    <circle cx="47" cy="25" r="3.6"/>
+    <circle cx="47" cy="39" r="3.6"/>
+    <circle cx="47" cy="52" r="3.6"/>
+  </g>
+  <circle cx="47" cy="12" r="6.2" fill="none" stroke="#f5a524" stroke-width="2.4"/>
+  <path d="M44 12.2 L46.2 14.4 L50.2 9.8" fill="none" stroke="#f5a524" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

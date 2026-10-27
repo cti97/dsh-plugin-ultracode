@@ -1,0 +1,14 @@
+# Ultracode bundle layer, applied after the shipped bundles.
+# One row: the Host plugin owns the switch, the keyword trigger, and the
+# policy section. Every key below is optional; the defaults are in
+# lib/policy.js (DEFAULT_CONFIG) and are documented in README.md.
+- insert:
+    - id: ultracode
+      name: '@local/dsh-plugin-ultracode'
+      config:
+        # Start every session with ultracode on, the equivalent of Claude's
+        # "ultracode": true in settings.json.
+        defaultOn: false
+        # Typing this word in a prompt arms ultracode for that one turn.
+        keyword: ultracode
+        keywordTrigger: true

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ultracode",
+    "description": "Lets the agent decide, per task, whether to run a dynamic workflow of parallel subagents instead of asking you for one."
+  }
+}
